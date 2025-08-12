@@ -1,0 +1,89 @@
+/* Reset & Base Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f2dc;
+    line-height: 1.6;
+}
+
+/* Navigation Bar */
+.navbar {
+    background-color: #333;
+    color: white;
+    padding: 15px 20px; /* padding = inner space */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-left: 20px; /* margin = outer space */
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    padding: 5px 10px;
+    border: 2px solid transparent;
+}
+
+.nav-links a:hover {
+    border-color: white;
+}
+
+/* Hero Section */
+.hero {
+    background-color: #e3f2fd;
+    padding: 40px; /* inner spacing */
+    text-align: center;
+    border-bottom: 3px solid #2196f3;
+}
+
+.cta-btn {
+    background-color: #2196f3;
+    color: white;
+    padding: 10px 20px;
+    margin-top: 15px;
+    border: none;
+    cursor: pointer;
+}
+
+.cta-btn:hover {
+    background-color: #1976d2;
+}
+
+/* Card Section */
+.cards {
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+    background-color: #fff3e0;
+}
+
+.card {
+    background-color: white;
+    border: 2px solid #ff9800; /* border = visible edge */
+    padding: 20px; /* inner spacing */
+    margin: 10px; /* space between cards */
+    width: 30%;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+}
+
+/* Footer */
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+}
